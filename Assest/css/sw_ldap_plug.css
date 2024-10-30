@@ -1,0 +1,259 @@
+.sw_ldap_css{
+    display: flex;
+    margin-left:0.8%; 
+    margin-right:2%;
+}
+
+.notice{
+    width: 62.2% !important;
+}
+
+.notice > button{
+    height: 100% !important;
+}
+div.elem-group {
+    margin: 5px 0;
+}
+
+#feedbackform label {
+    display: block;
+    font-family: 'Aleo';
+    padding-bottom: 4px;
+    font-size: 1.25em;
+}
+
+#feedbackform input,
+#feedbackform select,
+#feedbackform textarea {
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1.20em;
+    font-family: 'Aleo';
+    width: 400px;
+    padding: 1px;
+}
+
+.textarea_css {
+    height: 80px !important;
+}
+
+.box_border_css{
+      border-color: black !important;
+      max-width: 100% !important;
+      width: 100%;
+}
+
+.button_css{
+    padding-left: 11rem;
+    padding-top:1rem;
+    margin-right: 1.3%;
+    text-align: center;
+}
+.button_frame {
+    text-align: center;
+    padding-top: 1.5em;
+    width: 100%;
+}
+
+.buttons_style {
+    min-width: 30%;
+    width: fit-content;
+    min-height: 37px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #445660;
+    cursor: pointer;
+}
+
+.labelStyle{
+    display: flex !important;
+    /* max-width: 50% !important; */
+    width: 50%;
+    font-size: 0.9rem;
+    margin-top: 15px;
+}
+
+
+#submitFeedback {
+ 
+    height: 35px;
+    background: green;
+    color: white;
+    border: 2px solid darkgreen;
+    font-size: 1.20em;
+    font-family: 'Aleo';
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#skipFeedback {
+ 
+ height: 35px;
+ background: green;
+ color: white;
+ border: 2px solid darkgreen;
+ font-size: 1.20em;
+ font-family: 'Aleo';
+ border-radius: 4px;
+ cursor: pointer;
+}
+#submitFeedback:hover {
+    border: 2px solid black;
+}
+
+.card_framework{
+    background-color: none !important;
+    border: none !important;
+}
+
+.card_row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+.remove_attributemapping_button, .remove_roleemapping_button{
+    width: 12%;
+    font-size:medium;
+    font-weight: 600;
+     background-color:#1397a3e8 !important;
+     color: white !important;
+}
+
+.disabled_mappingfields{
+    width: 40%;
+    margin-right: 24px;
+    background-color: gainsboro !important; 
+    border-radius:0.3em;
+    border-color: black !important;
+}
+
+.card {
+    max-width: 60%;
+    border: 2px solid #1397a3e8;
+    height: fit-content;
+}
+
+.table_css {
+    width: 100%;
+}
+.table_css tr {
+    width: 100%;
+    display: flex;
+}
+ 
+.td_css {
+    padding: 12px 5px 0px 0px;
+    width: 100%;
+}
+
+
+#wpfooter {
+    display: none;
+}
+
+
+#roleAgainstAdmin option{
+    width: 90%;
+    position: relative;
+}
+#roleAgainstAdmin option:after{
+    width: 90%;
+    position: absolute;
+}
+#roleAgainstAdmin:after {
+position: absolute;
+content: "";
+top: 14px;
+right: 10px;
+width: 90%;
+height: 0;
+border: 6px solid transparent;
+border-color: #fff transparent transparent transparent;
+}
+
+div.elem-group {
+    margin: 20px 0;
+}
+
+.sw_ldap_css textarea {
+    height: 150px;
+}
+  
+
+button:hover {
+    border: 2px solid black;
+}
+
+
+div.elem-group {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    font-family: 'Aleo';
+    padding-bottom: 4px;
+    font-size: 1.25em;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 500px;
+    margin: 20px auto;
+    position: relative;
+
+}
+
+.outer-col {
+    position: fixed;
+    right: 5px;
+    bottom: -399px;
+    width: 24%;
+    background-color: white;
+}
+
+.sw_ldap_tab_css .nav-tab {
+    background-color: #1397a3e8;
+    color: white;
+}
+
+.sw_ldap_tab_css .nav-tab-active {
+    background-color: #445660;
+}
+
+ .heading {
+    float: left;
+    width: 100%;
+    background: #1397a3e8;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    font-family: arial;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+}
+
+ .help-form-col {
+    float: left;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid #999;
+}
+
+ .help-form-col input, textarea {
+    float: left;
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 1rem;
+    padding: 10px;
+}
